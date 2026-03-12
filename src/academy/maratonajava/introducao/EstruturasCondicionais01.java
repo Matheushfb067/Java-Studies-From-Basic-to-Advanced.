@@ -1,16 +1,20 @@
 package academy.maratonajava.introducao;
 
-public class EstruturasCondicionais {
+public class EstruturasCondicionais01 {
     public static void main(String[] args) {
         int idade = 20;
         boolean isAutorizadoAComprarBebida = idade >= 18;
 
         if(idade >= 18){
             System.out.println("Autorizado a comprar bebida alcolica!");
+        }else{
+            System.out.println("Não autorizado a comprar bebida");
         }
 
         if(isAutorizadoAComprarBebida){
             System.out.println("Autorizado a comprar bebida alcolica!");
+        }else{
+            System.out.println("Não autorizado a comprar bebida");
         }
 
         if(isAutorizadoAComprarBebida == false){
